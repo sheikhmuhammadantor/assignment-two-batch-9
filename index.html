@@ -53,7 +53,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="container mx-auto my-8 ">
+    <section class="container mx-auto my-8 hidden">
         <div class="hero rounded-xl bg-white" style="background-image: url(./assets/header-bg.png);">
             <div class="hero-overlay bg-opacity-50 rounded-xl"></div>
             <div class="hero-content text-neutral-content text-center">
@@ -83,7 +83,7 @@
     </section>
 
     <!--  Popular Tours Section -->
-    <section class="container mx-auto">
+    <section class="container mx-auto hidden">
         <div class="hero my-12">
             <div class="hero-content flex-col lg:flex-row">
                 <div>
@@ -116,7 +116,7 @@
     </section>
 
     <!-- Choose Destination Section -->
-    <section class="container mx-auto">
+    <section class="container mx-auto hidden">
         <h2 class="text-3xl text-center">Choose Your Destination</h2>
         <p class="text-center text-gray-400 mt-3 max-w-xl mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam nemo tempora!
@@ -143,9 +143,9 @@
     </section>
 
     <!-- Deals & Discounts Section -->
-    <section class="container mx-auto my-10">
+    <section class="container mx-auto my-10 hidden">
         <h2 class="text-3xl text-center">Deals & Discounts</h2>
-        <p class="text-center text-gray-400 mt-3 max-w-xl mx-auto">
+        <p class="text-center text-gray-400 my-3 mb-12 max-w-xl mx-auto">
             Dolor sit amet, consectetur adipisicing elit. Quia totam nemo tempora!
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam nemo tempora!
         </p>
@@ -241,7 +241,33 @@
     <!-- <section class="container mx-auto"></section> -->
 
     <!-- Newsletter Section -->
-    <!-- <section class="container mx-auto"></section> -->
+    <section class="container mx-auto">
+        <div class="hero my-12">
+            <div class="hero-content flex-col lg:flex-row gap-10">
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body border border-orange-500 rounded-xl">
+                        <h2 class="text-2xl font-semibold">Newsletter</h2>
+                        <p>Get your daily dose of travel news & tips. Sing up today!</p>
+                        <hr>
+                        <div class="form-control">
+                            <label class="label">
+                            </label>
+                            <input type="text" placeholder="Enter Your Name" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <input type="email" placeholder="Enter Your Email" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control mt-6">
+                            <button class="btn bg-orange-500 border-orange-500 text-white">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center lg:text-left">
+                    <img src="./assets/travel-dot-com.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer Section -->
     <section>
